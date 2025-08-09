@@ -1,0 +1,94 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#form-section {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form select {
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+#faq {
+  margin-top: 40px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-toggle {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-toggle:hover {
+  background-color: #005bb5;
+}
+
+.faq-content {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+}

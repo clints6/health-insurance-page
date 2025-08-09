@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Health Insurance Advisor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Clint Stevenson | Health Insurance</h1>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Your Health Insurance, Simplified</h2>
+      <p>Helping you find the best health insurance options available.</p>
+      <p>Get in touch for personalized advice!</p>
+    </section>
+
+    <section id="form-section">
+      <form action="https://formsubmit.co/your-email" method="POST" id="health-form">
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+          <option value="18-25">18–25</option>
+          <option value="26-35">26–35</option>
+          <option value="36-45">36–45</option>
+          <option value="46+">46+</option>
+        </select>
+
+        <label for="dependents">Number of Dependents:</label>
+        <select id="dependents" name="dependents">
+          <option value="0">None</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3+</option>
+        </select>
+
+        <label for="coverage">Who needs coverage?</label>
+        <select id="coverage" name="coverage">
+          <option value="yourself">Yourself</option>
+          <option value="family">Family</option>
+          <option value="business">Business</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <button class="faq-toggle">What is a Marketplace Plan?</button>
+        <div class="faq-content">
+          <p>A Marketplace plan is a health insurance plan offered through the government marketplace.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-toggle">How do I apply for health insurance?</button>
+        <div class="faq-content">
+          <p>You can apply for health insurance through the marketplace or directly through insurance providers.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: Clint Stevenson</p>
+    <p>Phone: 954-882-4920</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
